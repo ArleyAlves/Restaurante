@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    max-width: 1100px;
+    padding: 0 2%;
+    display: flex;
+    margin: 0 auto;
+}
+
+header{
+    color:#dfab00;
+    background-color: rgba(0,0,0,0.6);
+    height: 50px;
+}
+
+.logo{
+    margin-top: 2px;
+}
+
+.logomarca{
+    margin-top: 7px;
+    margin-right: 15px;
+    color: #dfab00;
+    font-size: 30px;
+}
+
+.logomarca a:hover {
+    color: white;
+}
+
+.menu{
+    margin-left: auto;
+}
+
+.menu-container{
+    margin-left: 400px;
+}
+
+.menu-container a.active-menu{
+    background-color: #dfab00;
+    color: black;
+}
+
+.menu-container a{
+    color: #dfab00;
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 50px;
+    transition: 0.8s;
+}
+
+.menu-container a:hover{
+    color: wheat;
+}
+
+
+section.main{
+    position: relative;
+    min-height: 800px;
+    background-image: url('img/image4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-position-y: top;
+}
+
+.text-chamada{
+    color: wheat;
+    position: absolute;
+    bottom: 260px;
+    right: 110px;
+}
+
+.text-chamada h1{
+    font-size: 45px;
+}
+
+section.produtos{
+    background-color: #dfab00;
+    padding: 20px 0;
+    text-align: center;
+    color: black;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.produto-single{
+    text-align: center;
+}
+
+.produto-container{
+    width: 100%;
+    justify-content: space-around;
+    border-radius: 4px;
+}
+
+.produto-single{
+    width: 100%;
+    margin-left:  -160px;
+    margin-right: 235px;
+    border-radius: 4px;
+}
+
+.produto-single h3{
+    text-align: center;
+    background-color: #dfab00;
+    border: 1.5px solid black;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.produto-single p{
+    background-color: wheat;
+    padding: 8px;
+    color: black;
+    border-radius: 6px;
+    margin-top: 2px;
+}
+
+.produto-single img{
+    margin-top: 40px;
+    width: 100%;
+    height: 300px;
+    width: 400px;
+    border-radius: 8px;
+}
+
+footer{
+    background-color: #333;
+    text-align: center;
+    padding: 8px;
+    color: white;
+}
